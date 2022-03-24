@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<debate-format schema-version="2.2">
+  <name>Karl Popper Másters CMUDE</name>
+  <version>1</version>
+  <info>
+    <region>España y Latinoamérica</region>
+    <level>Universitario</level>
+    <used-at>Másters Campeonato Mundial Universitario de Debate en Español</used-at>
+    <description>3 vs 3, 5-minute speeches, 3-minutes questionings, POIs not allowed</description>
+  </info>
+  <prep-time length="15:00"/>
+  <speech-types>
+    <speech-type ref="substantive" length="5:00" first-period="normal">
+      <bell time="1:00" number="1" next-period="pois-not-allowed"/>
+      <bell time="4:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+    <speech-type ref="interrogatorio" length="3:00" first-period="normal">
+      <bell time="2:00" number="1" next-period="warning"/>
+      <bell time="finish" number="2" next-period="overtime"/>
+    </speech-type>
+  </speech-types>
+  <speeches>
+    <speech type="substantive">
+      <name>Primer Afirmativo</name>
+    </speech>
+    <speech type="interrogatorio">
+      <name>Interrogatorio Negativo</name>
+    </speech>
+    <speech type="substantive">
+      <name>Primer Negativo</name>
+    </speech>
+    <speech type="interrogatorio">
+      <name>Interrogatorio Afirmativo</name>
+    </speech>
+    <speech type="substantive">
+      <name>Segundo Afirmativo</name>
+    </speech>
+    <speech type="interrogatorio">
+      <name>Interrogatorio Negativo</name>
+    </speech>
+    <speech type="substantive">
+      <name>Segundo Negativo</name>
+    </speech>
+    <speech type="interrogatorio">
+      <name>Interrogatorio Afirmativo</name>
+    </speech>
+    <speech type="substantive">
+      <name>Tercero Afirmativo</name>
+    </speech>
+    <speech type="substantive">
+      <name>Tercero Negativo</name>
+    </speech>
+  </speeches>
+</debate-format>
